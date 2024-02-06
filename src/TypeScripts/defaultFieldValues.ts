@@ -8,9 +8,6 @@
 import {EntryPoints} from "N/types";
 import log = require('N/log');
 
-import record = require('N/record')
-import search = require('N/search')
-
 // Example 1
 // When sales order is created, set the memo field value automatically
 export function beforeLoad(context: EntryPoints.UserEvent.beforeLoadContext){

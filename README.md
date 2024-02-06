@@ -2,12 +2,17 @@
 
 ## Overview
 
-This project explores how to leverage SuiteScript 2.1 and SDF with TypeScript for building faster and more efficient NetSuite account customizations. Whether you're a beginner or an experienced developer, this guide offers valuable insights into setting up an effective development environment using these technologies.
+This project is designed to demonstrate the integration of SuiteScript 2.1 and SDF with TypeScript, aiming to streamline and optimize the customization process for NetSuite accounts.
 
-- **SDF**: Provides a structured approach to software development lifecycle management.
-- **SuiteScript 2.1**: Offers advanced customization features on the SuiteCloud Platform.
-- **TypeScript**: Enhances code quality and maintainability.
-- **ECMAScript**: Modern JavaScript features contributing to cleaner, modular code.
+For additional insights and guidance, this repository complements the following technical blogs:
+- [Getting Started with SuiteScript 2.1, TypeScript, and the SuiteCloud Development Framework (SDF)](https://blogs.oracle.com/developers/post/getting-started-with-suitescript-21-typescript-and-the-suitecloud-development-framework-sdf)
+- [5 Practical SuiteScript 2.1 User Event Scripts with TypeScript](https://blogs.oracle.com/developers/post/5-practical-suitescript-21-user-event-scripts-with-typescript)
+
+Key Technologies:
+- **SDF**: Facilitates a structured framework for managing the software development lifecycle.
+- **SuiteScript 2.1**: Provides enhanced customization capabilities within the SuiteCloud Platform.
+- **TypeScript**: Improves code quality and simplifies maintenance.
+- **ECMAScript**: Offers modern JavaScript features for more efficient, modular coding.
 
 > **Disclaimer**: The NetSuite team does not officially support TypeScript or any third-party libraries mentioned or used in this repository.
 
@@ -15,7 +20,7 @@ This project explores how to leverage SuiteScript 2.1 and SDF with TypeScript fo
 
 # Getting Started
 
-## Pre-requisites
+## Pre-requisites (Environment & SDF Setup)
 
 ### 1. Install Visual Studio Code (IDE)
 
@@ -36,7 +41,7 @@ Follow these steps to configure your NetSuite account credentials:
 2. **Find SuiteCloud Section**: Scroll through the settings to locate the "SuiteCloud" section.
 3. **Enter Credentials**: Populate the appropriate fields with your NetSuite account credentials.
 
-## 4. Setup SDF Development Environment
+### 4. Setup SDF Development Environment
 
 Ensure that your SDF and NetSuite account are set up. If your environment is already setup, you can skip this step. If not, watch this [three-part video series](https://videohub.oracle.com/media/Setting+up+NetSuite+to+Use+SDF/1_67268uoj) to get your account set up. Alternatively, you can follow these step-by-step guides published on Oracle Help Center:
 
@@ -136,4 +141,4 @@ Released under the Universal Permissive License v1.0 as shown at [https://oss.or
 
 ## Disclaimer
 
-This project is entirely opinionated by the Author of this project and is not officially supported by Oracle + NetSuite Inc. The sample code included herein is provided on an "as is" basis, without warranty of any kind, to the fullest extent permitted by law. Oracle + NetSuite Inc. does not warrant or guarantee the individual success developers may have in implementing the sample code on their development platforms or in using their own Web server configurations. Oracle + NetSuite Inc. does not warrant, guarantee or make any representations regarding the use, results of use, accuracy, timeliness or completeness of any data or information relating to the sample code. Oracle + NetSuite Inc. disclaims all warranties, express or implied, and in particular, disclaims all warranties of merchantability, fitness for a particular purpose, and warranties related to the code, or any service or software related thereto. Oracle + NetSuite Inc. shall not be liable for any direct, indirect or consequential damages or costs of any type arising out of any action taken by you or others related to the sample code.
+This project is author opinionated and is not officially supported by Oracle + NetSuite Inc. The sample code included herein is provided on an "as is" basis, without warranty of any kind, to the fullest extent permitted by law. Oracle + NetSuite Inc. does not warrant or guarantee the individual success developers may have in implementing the sample code on their development platforms or in using their own Web server configurations. Oracle + NetSuite Inc. does not warrant, guarantee or make any representations regarding the use, results of use, accuracy, timeliness or completeness of any data or information relating to the sample code. Oracle + NetSuite Inc. disclaims all warranties, express or implied, and in particular, disclaims all warranties of merchantability, fitness for a particular purpose, and warranties related to the code, or any service or software related thereto. Oracle + NetSuite Inc. shall not be liable for any direct, indirect or consequential damages or costs of any type arising out of any action taken by you or others related to the sample code.

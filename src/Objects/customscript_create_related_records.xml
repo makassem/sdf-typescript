@@ -1,0 +1,13 @@
+<usereventscript scriptid="customscript_create_related_records">
+    <name>Sales Order - Related Records Demo</name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/createRelatedRecords.js]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_create_related_records">
+            <isdeployed>F</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>SALESORDER</recordtype>
+            <status>TESTING</status>
+        </scriptdeployment>
+    </scriptdeployments>
+</usereventscript>

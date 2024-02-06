@@ -1,0 +1,13 @@
+<usereventscript scriptid="customscript_send_notifications">
+    <name>Sales Order - Send Notifications Demo</name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/sendNotifications.js]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_send_notifications">
+            <isdeployed>F</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>SALESORDER</recordtype>
+            <status>TESTING</status>
+        </scriptdeployment>
+    </scriptdeployments>
+</usereventscript>

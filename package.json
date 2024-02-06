@@ -1,0 +1,8 @@
+{
+    "name": "SDF TypeScript Project",
+    "version": "1.0.0",
+    "devDependencies": {
+        "@hitc/netsuite-types": "^2023.1.9",
+        "typescript": "^5.0.4"
+    }
+}

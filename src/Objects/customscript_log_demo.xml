@@ -1,0 +1,13 @@
+<usereventscript scriptid="customscript_log_demo">
+    <name>Sales Order - Log Demo</name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/logDemo.js]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_log_demo">
+            <isdeployed>F</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>SALESORDER</recordtype>
+            <status>TESTING</status>
+        </scriptdeployment>
+    </scriptdeployments>
+</usereventscript>

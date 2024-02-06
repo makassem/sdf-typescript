@@ -1,0 +1,13 @@
+<usereventscript scriptid="customscript_field_manipulation">
+    <name>Sales Order - Field Manipulation Demo</name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/fieldManipulation.js]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_field_manipulation">
+            <isdeployed>F</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>SALESORDER</recordtype>
+            <status>TESTING</status>
+        </scriptdeployment>
+    </scriptdeployments>
+</usereventscript>

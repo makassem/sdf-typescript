@@ -1,0 +1,13 @@
+<usereventscript scriptid="customscript_record_validation">
+    <name>Sales Order - Record Validaton Demo</name>
+    <notifyowner>T</notifyowner>
+    <scriptfile>[/SuiteScripts/recordValidation.js]</scriptfile>
+    <scriptdeployments>
+        <scriptdeployment scriptid="customdeploy_record_validation">
+            <isdeployed>F</isdeployed>
+            <loglevel>DEBUG</loglevel>
+            <recordtype>SALESORDER</recordtype>
+            <status>TESTING</status>
+        </scriptdeployment>
+    </scriptdeployments>
+</usereventscript>
